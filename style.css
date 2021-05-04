@@ -1,0 +1,44 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     top: 50%;
+     bottom: 50%;
+     background-color: darkgoldenrod;
+}
+
+.origami{
+    border: double;
+    display: flexbox;
+    size: 100pt;
+}
+.aboutme{
+    text-align: center;
+    background: dodgerblue;
+}
+
+.i {
+    text-align: left;
+}
+
+.origami i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.origami {
+    position: relative;
+}
+
+.origami:hover i{
+    opacity: 1;
+}
+
+.origami:hover img{
+    opacity: 0.3;
+}
+
+
